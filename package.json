@@ -1,0 +1,31 @@
+{
+  "name": "consulate-scrypt-client",
+  "version": "0.1.0",
+  "description": "scrypt client secret hashing plugin for consulate",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/consulate/consulate-scrypt-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/consulate/consulate-scrypt-client/issues"
+  },
+  "keywords": [
+    "scrypt",
+    "consulate",
+    "password"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "scrypt": "~1.5.3"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.11.0"
+  }
+}
